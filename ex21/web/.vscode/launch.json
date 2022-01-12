@@ -1,0 +1,24 @@
+{
+    //IntelliSenseを使用して利用可能な属性を学べます。
+    //既存の属性の説明をホバーして表示します。 
+    //詳細情報は次を確認してください。
+    //http~
+    "version":"0.2.0",
+    "configurations": [
+        {
+            "name":"Listen for XDebug",
+            "type":"php",
+            "request":"launch",
+            "port":9003
+        },
+        {
+            "name":"Launch currently open script",
+            "type": "php",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "port": 9003
+
+        }
+    ]
+}

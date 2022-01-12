@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Viewport" content="width=device-width,initial-scale=1.0">
+    <title>Sample</title>
+
+</head>
+<body>
+    <h1>konnitiha!</h1>
+    <p id="msg"></p>
+
+    <script language="javascript" type="text/javascript">
+        const msg = document.getelementbyId("msg");
+
+        var now = new Date();
+        var y = now.getFullYear();
+        var m = now.getMonth() + 1;
+        var d = now.getDate();
+        var h = now.getHours();
+        var mi = now.getMinutes();
+        var s = now.getSeconds();
+
+        msg.innerHTML = `ただいまの日時は${y}/${m}/${d} ${h}:${mi}:${s} です！`;
+
+    </script>
+</body>
+</html>

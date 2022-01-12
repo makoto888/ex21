@@ -1,0 +1,15 @@
+{
+    "name": "PHP Basid Project",
+    "dockerComposeFile": "docler-compose.yml",
+    "service":"web",
+    "workspaceFolder": "/var/www/html",
+    "extensions": [
+        "felixbecker.php-debug",
+        "felixfbecker.php-intellisense"
+
+    ],
+    "settings": {
+        "editor.tabSize": 2,
+
+    },
+}
